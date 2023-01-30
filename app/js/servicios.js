@@ -35,7 +35,7 @@
 		
 	$(document).on('click', '.deleteVigilancia', function(){
 		var id = $(this).attr("id");
-		if(confirm("Are you sure you want to remove this?")){
+		if(confirm("Esta seguro que quiere Eliminar?")){
 			$.ajax({
 				url:"action.php",
 				method:"POST",
