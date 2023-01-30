@@ -1,7 +1,7 @@
 <?php 
 session_start();
 include('header.php');
-include 'Servicio.php';
+include 'servicio.php';
 $servicio = new Servicio();
 $servicio->checkLoggedIn();
 ?>

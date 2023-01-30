@@ -3,7 +3,7 @@ session_start();
 include('header.php');
 $loginError = '';
 if (!empty($_POST['email']) && !empty($_POST['pwd'])) {
-	include 'Servicio.php';
+	include 'servicio.php';
 	$servicio = new Servicio();
 	$user = $servicio->loginUsers($_POST['email'], $_POST['pwd']); 
 	if(!empty($user)) {
