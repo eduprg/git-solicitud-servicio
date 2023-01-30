@@ -35,12 +35,9 @@
 		
 	$(document).on('click', '.deleteVigilancia', function(){
 		var id = $(this).attr("id");
-<<<<<<< HEAD
+
 		if(confirm("Esta seguro de Eliminar?")){
-=======
-		if(confirm("Esta seguro que quiere Eliminar?")){
->>>>>>> 8047db032603ec0bd434c0ecd99e7fcea8c0816e
-			$.ajax({
+$.ajax({
 				url:"action.php",
 				method:"POST",
 				dataType: "json",
