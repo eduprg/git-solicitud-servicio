@@ -9,7 +9,7 @@ if(!empty($_POST['companyName']) && $_POST['companyName']) {
 	header("Location:vigilancia.php");	
 }
 ?>
-<title>Vigilancia</title>
+<title>Responsable de Vigilancia</title>
 <script src="js/servicio.js"></script>
 <link href="css/style.css" rel="stylesheet">
 <?php include('container.php');?>
@@ -70,7 +70,7 @@ if(!empty($_POST['companyName']) && $_POST['companyName']) {
 </div>
 <div class="row">	
 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-    <h3>Notas: </h3>
+    <h3>Notas:</h3>
     <div class="form-group">
         <textarea class="form-control txt" rows="5" name="notes" id="notes" placeholder="Notas"></textarea>
     </div>

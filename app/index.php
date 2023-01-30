@@ -14,7 +14,7 @@ if (!empty($_POST['email']) && !empty($_POST['pwd'])) {
 		$_SESSION['mobile'] = $user[0]['mobile'];
 		header("Location:vigilancia.php");
 	} else {
-		$loginError = "Invalid email or password!";
+		$loginError = "Correo o Contraseña son incorrecta";
 	}
 }
 ?>
@@ -43,7 +43,7 @@ if (!empty($_POST['email']) && !empty($_POST['pwd'])) {
     <input type="password" class="form-control" name="pwd" placeholder="Password" required>
 </div> 
 <div class="form-group">
-    <button type="submit" name="login" class="btn btn-primary" style="width: 100%;"> Acceder </button>
+    <button type="submit" name="login" class="btn btn-primary" style="width: 100%;"> Ingresar </button>
 </div>
 <div class="clearfix">
 <label class="pull-left checkbox-inline"><input type="checkbox"> Recordarme</label>

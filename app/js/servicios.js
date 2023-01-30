@@ -33,14 +33,18 @@
 	});	
 	
 		
-	$(document).on('click', '.deleteInvoice', function(){
+	$(document).on('click', '.deleteVigilancia', function(){
 		var id = $(this).attr("id");
+<<<<<<< HEAD
 		if(confirm("Esta seguro de Eliminar?")){
+=======
+		if(confirm("Esta seguro que quiere Eliminar?")){
+>>>>>>> 8047db032603ec0bd434c0ecd99e7fcea8c0816e
 			$.ajax({
 				url:"action.php",
 				method:"POST",
 				dataType: "json",
-				data:{id:id, action:'delete_invoice'},				
+				data:{id:id, action:'delete_Vigilancia'},				
 				success:function(response) {
 					if(response.status == 1) {
 						$('#'+id).closest("tr").remove();
