@@ -13,7 +13,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="https://www.utpl.edu.ec/">INICIO</a></li>
+            <li class="active"><a href="https://www.utpl.edu.ec/">Inicio</a></li>
            
           </ul>
          
