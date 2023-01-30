@@ -14,7 +14,7 @@ if (!empty($_POST['email']) && !empty($_POST['pwd'])) {
 		$_SESSION['mobile'] = $user[0]['mobile'];
 		header("Location:vigilancia.php");
 	} else {
-		$loginError = "Invalid email or password!";
+		$loginError = "Correo o Contraseña son incorrecta";
 	}
 }
 ?>
