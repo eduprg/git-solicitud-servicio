@@ -17,7 +17,7 @@ $servicio->checkLoggedIn();
   <tr>
     <th width="7%">No.</th>
     <th width="15%">Fecha Creación</th>
-    <th width="35%">Vigilancia</th>
+    <th width="35%">Responsable de Vigilancia</th>
     <th width="35%">Nota</th>
     <th width="15%">Estado</th>
     <th width="3%"></th>

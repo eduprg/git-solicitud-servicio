@@ -33,14 +33,15 @@
 	});	
 	
 		
-	$(document).on('click', '.deleteInvoice', function(){
+	$(document).on('click', '.deleteVigilancia', function(){
 		var id = $(this).attr("id");
-		if(confirm("Are you sure you want to remove this?")){
-			$.ajax({
+
+		if(confirm("Esta seguro de Eliminar?")){
+$.ajax({
 				url:"action.php",
 				method:"POST",
 				dataType: "json",
-				data:{id:id, action:'delete_invoice'},				
+				data:{id:id, action:'delete_Vigilancia'},				
 				success:function(response) {
 					if(response.status == 1) {
 						$('#'+id).closest("tr").remove();

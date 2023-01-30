@@ -2,6 +2,7 @@
 session_start();
 include 'servicio.php';
 $invoice = new Servicio();
+
 if($_POST['action'] == 'delete_Vigilancia' && $_POST['id']) {
 	$invoice->deleteVigilancia($_POST['id']);	
 	$jsonResponse = array(
